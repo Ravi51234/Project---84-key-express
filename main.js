@@ -52,13 +52,13 @@ function my_keydown(e)
 			document.getElementById("d1").innerHTML="You pressed Symbol or Other Key";
 		}
 
-		/*if((keyPressed >=17 && keyPressed<=18)|| (keyPressed = 27)){
+		if((keyPressed >=17 && keyPressed<=18)|| (keyPressed = 27)){
 		specialkey();
 		document.getElementById("d1").innerHTML="You pressed Special Key";
 	    } else{
 		otherkey();
 		document.getElementById("d1").innerHTML="You pressed Symbol or Other Key";
-	    }*/
+	    }
 }
 
 function alphabetkey()
